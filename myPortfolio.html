@@ -10,11 +10,14 @@
 
     <nav>
         <div id = "home">
-            <!-- <div class = "themeButton">
-                <button class="DarkLightTheme"></button>
-            </div> -->
             <div class = "sideBar">
-                <button class="DarkLightTheme"></button>
+                <script>
+                    function darkMode(){
+                        var element = document.body;
+                        element.classList.toggle("dark-mode");
+                    }
+                </script>
+                <button onclick="darkMode()" class = "DarkLightTheme">Theme</button>
                 <a class="navBar" href="#about-me">About Me</a>
                 <a class="navBar" href="#education">Education</a>
                 <a class="navBar" href="#skills">Skills</a>

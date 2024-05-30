@@ -1,11 +1,17 @@
 body{
     background-color: rgb(121, 156, 176);
+    color: black;
+}
+.dark-mode{
+    background-color: black;
+    color: rgb(121, 156, 176);
 }
 html{
     scroll-behavior: smooth;
 }
 .DarkLightTheme{
-    shape-margin: 80%;  
+    padding: 20px;
+    margin-left: 1cm;
 }
 #home{
     background-color: rgb(201, 3, 3);
